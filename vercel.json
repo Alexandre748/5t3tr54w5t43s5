@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/principal/index.html/" },
+    { "src": "/(.*)", "dest": "/principal/$1" },
+    { "src": "/(.*)", "dest": "/produtos_de_limpeza/$1" }
+  ]
+}
